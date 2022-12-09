@@ -11,10 +11,9 @@ const Contact = () => {
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
             <span>Contact Me</span>
-            <h3>I Want To Hear From You</h3>
+            <h3>I Want To Research with you</h3>
             <p>
-              Please fill out the form on this section to contact with me. Or
-              call between 9:00 a.m. and 8:00 p.m. ET, Monday through Friday
+              If you are interested in Research then contact with me
             </p>
           </div>
           <div className="contact_inner">
@@ -28,7 +27,7 @@ const Contact = () => {
                       </div>
                       <div className="short">
                         <h3>Address</h3>
-                        <span>{data.contact.address}</span>
+                        <span>{'CSL 212, 1308 W Main St, Urbana, IL 61801'}</span>
                       </div>
                     </div>
                   </li>
@@ -40,7 +39,7 @@ const Contact = () => {
                       <div className="short">
                         <h3>Email</h3>
                         <span>
-                          <a href="#">{data.contact.email}</a>
+                          <a href="#">{'jianh@illinois.edu'}</a>
                         </span>
                       </div>
                     </div>
@@ -52,68 +51,14 @@ const Contact = () => {
                       </div>
                       <div className="short">
                         <h3>Phone</h3>
-                        <span>{data.contact.phn}</span>
+                        <span>{'217-300-3104'}</span>
                       </div>
                     </div>
                   </li>
                 </ul>
               )}
             </div>
-            <div className="right wow fadeInRight" data-wow-duration="1s">
-              <div className="fields">
-                <form
-                  action="/"
-                  method="post"
-                  className="contact_form"
-                  id="contact_form"
-                  autoComplete="off"
-                >
-                  <div
-                    className="returnmessage"
-                    data-success="Your message has been received, We will contact you soon."
-                  />
-                  <div className="empty_notice">
-                    <span>Please Fill Required Fields</span>
-                  </div>
-                  <div className="input_list">
-                    <ul>
-                      <li>
-                        <input id="name" type="text" placeholder="Your Name" />
-                      </li>
-                      <li>
-                        <input
-                          id="email"
-                          type="text"
-                          placeholder="Your Email"
-                        />
-                      </li>
-                      <li>
-                        <input
-                          id="phone"
-                          type="number"
-                          placeholder="Your Phone"
-                        />
-                      </li>
-                      <li>
-                        <input id="subject" type="text" placeholder="Subject" />
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="message_area">
-                    <textarea
-                      id="message"
-                      placeholder="Write your message here"
-                      defaultValue={""}
-                    />
-                  </div>
-                  <div className="dizme_tm_button">
-                    <a id="send_message" href="#">
-                      <span>Submit Now</span>
-                    </a>
-                  </div>
-                </form>
-              </div>
-            </div>
+            
             <div className="brush_2 wow fadeInRight" data-wow-duration="1s">
               <img src="img/brushes/contact/2.png" alt="image" />
             </div>
@@ -125,7 +70,7 @@ const Contact = () => {
                   height={375}
                   style={{ width: "100%" }}
                   id="gmap_canvas"
-                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3051.230370901097!2d-88.2289082!3d40.1148693!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd741df00828b%3A0xf2a5ccbd67f47c7e!2sCoordinated%20Science%20Laboratory!5e0!3m2!1sen!2sbd!4v1670578327037!5m2!1sen!2sbd=embed"
                 />
                 <a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon" />
                 <br />
