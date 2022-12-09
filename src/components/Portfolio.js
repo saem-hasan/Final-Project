@@ -51,7 +51,7 @@ const Portfolio = () => {
       <div className="dizme_tm_portfolio">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Portfolio</span>
+            <span>Neamoth</span>
             <h3>My Amazing Works</h3>
             <p>
               Most common methods for designing websites that work well on
