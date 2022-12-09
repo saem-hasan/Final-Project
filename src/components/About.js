@@ -7,11 +7,11 @@ const About = ({ dark }) => {
           <div className="wrapper">
             <div className="left">
               <div className="image">
-                <img src={`img/about/${dark ? 2 : 1}.jpg`} alt="image" />
+                <img src={`img/about/${dark ? 2 : 1}.png`} alt="image" />
                 <div className="numbers year">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={18} />
+                      <Counter end={20} />
                     </h3>
                     <span className="name">
                       Years of
@@ -23,7 +23,7 @@ const About = ({ dark }) => {
                 <div className="numbers project">
                   <div className="wrapper">
                     <h3>
-                      <Counter end={9} />K
+                      <Counter end={500} />+
                     </h3>
                     <span className="name">
                       Total
@@ -37,16 +37,17 @@ const About = ({ dark }) => {
             <div className="right">
               <div className="title wow fadeInUp" data-wow-duration="1s">
                 <span>{`I'm a Researcher`}</span>
-                <h3>I Can Design Anything You Want</h3>
+                <h3>I just love to face new challenges</h3>
               </div>
               <div className="text wow fadeInUp" data-wow-duration="1s">
-                <p>
-                  {`Hello there! I'm a web designer, and I'm very passionate and
-                  dedicated to my work. With 20 years experience as a
-                  professional web developer, I have acquired the skills and
-                  knowledge necessary to make your project a success. I enjoy
-                  every step of the design process, from discussion and
-                  collaboration.`}
+                <p align="justify">
+                  {`I enjoy building systems. My research interests lie in the areas of computer systems and architecture, including memory/storage systems, operating systems, systems architecture, systems security, distributed systems, and especially the intersections of them.
+
+I lead the Systems Platform Research Group (PlatformX) at UIUC.
+
+Before I joined UIUC in January 2018, I worked on a startup company. I received my Ph.D. in Computer Science from Georgia Tech in August 2017. During my Ph.D study, I specialized in building memory and storage systems that have benefited platforms spanning from wearables to mobiles to large-scale data centers.
+
+We have new Ph.D. and Post-Doc openings. If you enjoy building systems, please contact me with your CV.`}
                 </p>
               </div>
               <div
@@ -54,7 +55,7 @@ const About = ({ dark }) => {
                 data-wow-duration="1s"
               >
                 <a className="anchor" href="#contact">
-                  <span>Hire Me</span>
+                  <span>Contact</span>
                 </a>
               </div>
             </div>
