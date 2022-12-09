@@ -3,6 +3,7 @@
 @import "../public/css/plugins.css";
 @import "../public/css/dark.css";
 @import "../public/css/style.css";
+@import "../src/components/research.css";
 
 .c-pointer {
   cursor: pointer;

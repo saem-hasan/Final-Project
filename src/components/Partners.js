@@ -1,41 +1,30 @@
-import { useEffect, useState } from "react";
-import { fatchData } from "../utilits";
-const Partners = ({ dark }) => {
-  const [data, setData] = useState([]);
-  useEffect(async () => {
-    setData(await fatchData("/static/partners.json"));
-  }, []);
+import ResearchCart from "./ResearchCart";
+
+const Portfolio = () => {
+
+  const onClick = (index) => {
+    setPopup(true);
+    setPopupdata(data && data[index]);
+  };
   return (
-    <div className="dizme_tm_section">
-      <div className="dizme_tm_partners">
+    <div className="dizme_tm_section" id="portfolio">
+      <div className="dizme_tm_portfolio">
         <div className="container">
-          <div className="partners_inner">
-            <ul>
-              {data &&
-                data.map((img, i) => (
-                  <li
-                    className="wow fadeIn"
-                    data-wow-duration="1s"
-                    key={i}
-                    data-wow-delay={`0.${i + 1 * 2}s`}
-                  >
-                    <div className="list_inner">
-                      <img
-                        src={img.logo && img.logo[dark ? "dark" : "light"]}
-                        alt="image"
-                      />
-                      <a className="dizme_tm_full_link" a="" href={img.link} />
-                    </div>
-                  </li>
-                ))}
-            </ul>
+          <div className="dizme_tm_main_title" data-align="center">
+            <span>Research</span>
+            <h3 className="flex flex-col mt-11">My Amazing Works</h3>
+            <p className="">
+            We are interested in building practical, reliable, secure, and high-performance systems. Our research contributions have been published at top-tier systems, architecture, and security conferences, some of them are being transferred into products and have been featured by CACM, the Register, CBR, PCWorld, ZDNet, and many other media agencies.
+            </p>
+            <br />
+            <p>
+            Our research is supported in part by NSF, Army Research, Western Digital, NetApp, Google, Intel, and IBM Research.
+            </p>
           </div>
-        </div>
-        <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
-          <img src="img/brushes/partners/1.png" alt="image" />
+          <ResearchCart/>
         </div>
       </div>
     </div>
   );
 };
-export default Partners;
+export default Portfolio;
