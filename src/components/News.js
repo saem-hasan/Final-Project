@@ -16,7 +16,26 @@ const News = () => {
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
             <span>From My Blog</span>
-            <h3>{`Our Recent Updates, Blog, Tips, Tricks & More`}</h3>
+            <h3>{`Teaching`}</h3>
+            <p>ECE 522: Emerging Memory and Storage Systems, Spring 2023</p>
+            <span></span>
+            <p> ECE 511: Computer Architecture, Fall 2022</p>
+            <span></span>
+            <p>ECE 411: Computer Organization and Design, Spring 2022</p>
+            <span></span>
+            <p>ECE 598: Advanced Memory and Storage Systems, Spring 2021</p>
+            <span></span>
+            <p>ECE 598: Advanced Memory and Storage Systems, Fall 2021</p>
+            <span></span>
+            <p>ECE 411: Computer Organization and Design, Fall 2020</p>
+            <span></span>
+            <p>ECE 411: Computer Organization and Design, Spring 2020</p>
+            <span></span>
+            <p>ECE 598: Advanced Memory and Storage Systems, Fall 2019</p>
+            <span></span>
+            <p>ECE 598: Advanced Memory and Storage Systems, Spring 2018</p>
+            <span></span>
+
           </div>
           <div className="news_list">
             <ul>
