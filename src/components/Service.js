@@ -35,11 +35,10 @@ const Service = ({ dark }) => {
       <div className="dizme_tm_services">
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
-            <span>Services</span>
-            <h3>What I Do for Clients</h3>
+            <span>Student</span>
+            <h3>Success of my Student</h3>
             <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            The best time for me is when I spend time with students
             </p>
           </div>
           <div className="service_list">
@@ -61,7 +60,7 @@ const Service = ({ dark }) => {
                             {parse(data.icon.svg)}
                             {dark ? (
                               <img
-                                className="back"
+                                className="black"
                                 src={data.icon.iconBgDark}
                                 alt="image"
                               />
